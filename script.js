@@ -1,14 +1,14 @@
 const cards = [
-{ title: "Prize", body: "Bragging rights, spotlight in the YSWS gallery, and a small hardware prize for outstanding integrations." },
-{ title: "Who", body: "Students, mentors, and hobbyists — solo or teams (max 5)." },
-{ title: "Where", body: "Online submissions via the official Hackcraft form." },
-{ title: "How", body: "Ship working code, a README, usage instructions, and a short demo video (optional)." }
+{ title: "Prize", body: "Bragging rights, spotlight in the YSWS gallery, and a yubikey!" },
+{ title: "Who", body: "Members of Hack Club." },
+{ title: "Where", body: "Online submissions via the official Hackvault form." },
+{ title: "How", body: "Ship working code, a README, usage instructions, and a working version of your app which can run on Windows, MacOS and Linux." }
 ];
 
 
 const examples = [
-{ title: "SafeKeep", desc: "Offline-first manager with strong encryption and cross-device sync." },
-{ title: "Keyring Junior", desc: "Educational password manager with a friendly onboarding flow." }
+{ title: "Your project could be here!", desc: " " },
+{ title: "Same as here!", desc: " " }
 ];
 
 
