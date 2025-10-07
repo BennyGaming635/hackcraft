@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hackcraft – YSWS</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body class="min-h-screen bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-slate-100">
+<header class="max-w-5xl mx-auto p-6 flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="rounded-lg bg-white/10 p-2">
+<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 2v6M5 8v8a7 7 0 0014 0V8" />
+</svg>
+</div>
+<div>
+<h1 class="text-2xl font-semibold tracking-tight">Hackcraft</h1>
+<p class="text-sm text-slate-300">YSWS — Ship a password manager. WS a YubiKey.</p>
+</div>
+</div>
+<div class="text-right">
+<p class="text-xs text-slate-300">YSWS ends</p>
+<p class="font-mono font-semibold" id="end-date">November 30, 2025</p>
+</div>
+</header>
+
+
+<main class="max-w-5xl mx-auto px-6 py-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
+<section class="lg:col-span-2">
+<div class="rounded-2xl bg-gradient-to-r from-slate-800/60 to-slate-700/30 p-8 shadow-2xl">
+<h2 class="text-3xl font-extrabold mb-3">Build & Ship: Password Manager</h2>
+<p class="text-slate-300 leading-relaxed mb-6">
+Hackcraft is the YSWS track where teams and individuals build a <strong>password manager</strong> — simple, secure, and student-friendly.
+There’s an accompanying WS (Workshop/Side Quest) to integrate a hardware security key (like a YubiKey) for second-factor or resident secret storage.
+</p>
+
+
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4" id="info-cards"></div>
+
+
+<hr class="my-6 border-slate-700" />
+
+
+<h3 class="text-xl font-semibold mb-3">Project constraints</h3>
+<ul class="list-disc list-inside text-slate-300 space-y-2">
+<li>Project must be primarily a password manager (desktop, mobile, or web).</li>
+<li>Include a public repo link (GitHub/GitLab) or upload in the submission form.</li>
+<li>Limit contributors to <strong>5</strong> people.</li>
+<li>No paid third-party APIs for core functionality (OK for optional features).</li>
+<li>Prefer permissive open-source license (MIT/Apache) and include a LICENSE file.</li>
+<li>Do not include real passwords in your demo or repo.</li>
+<li>Bonus: YubiKey support or a plan for hardware-backed secrets earns bonus points.</li>
+</ul>
+
+
+<p class="mt-6 text-sm text-slate-400">Questions? Reach out to the YSWS organisers or open an issue in the Hackcraft repo.</p>
+</div>
+
+
+<div class="mt-8">
+<h3 class="text-lg font-semibold mb-3">Example submissions</h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4" id="examples"></div>
+</div>
+</section>
+
+
+<aside class="rounded-2xl bg-slate-800/50 p-6 shadow-lg">
+<h3 class="text-xl font-bold mb-3">Submit your project</h3>
+<p class="text-slate-300 mb-4">When you're ready to share your creation, click below to open the submission form.</p>
+<a href="https://example.com/ysws/hackcraft/submit" target="_blank" rel="noopener noreferrer" class="block text-center rounded-lg py-3 font-semibold bg-emerald-500 text-slate-900 hover:bg-emerald-400 transition">
+Open Submission Form
+</a>
+
+
+<div class="mt-6 text-sm text-slate-400">
+<p class="font-semibold">Quick info</p>
+<ul class="mt-2 space-y-1">
+<li>- Deadline: <span class="font-mono">November 30, 2025</span></li>
+<li>- Max contributors: <strong>5</strong></li>
+<li>- Required: public repo + README</li>
+</ul>
+</div>
+</aside>
+</main>
+
+
+<footer class="max-w-5xl mx-auto p-6 text-center text-slate-500 text-sm">
+<p>Made with ♥ by @BennyGaming635 and @Aarav J and the Hack Club Team.</p>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
